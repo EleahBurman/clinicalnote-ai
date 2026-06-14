@@ -26,7 +26,7 @@ export async function analyzeNotes(
   therapistName?: string,  // the ? means this parameter is optional
   sessionDate?: string
 ): Promise<SummaryResponse> {
-  const response = await fetch('http://127.0.0.1:8000/summarize', {
+  const response = await fetch('https://clinicalnote-ai.onrender.com/summarize', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
