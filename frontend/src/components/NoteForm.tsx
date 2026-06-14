@@ -58,7 +58,7 @@ export default function NoteForm({ onSubmit, loading }: NoteFormProps) {
             value={notes}
             onChange={(e) => setNotes(e.target.value)}
             placeholder="Paste your raw session notes here... e.g. 'Patient arrived on time, reported increased anxiety this week related to work stress. Discussed CBT techniques...'"
-            className="w-full border border-gray-200 rounded-xl p-4 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-400 min-h-[200px] resize-none"
+            className="w-full border border-gray-200 rounded-xl p-4 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-400 min-h-50 resize-none"
           />
         </div>
 
